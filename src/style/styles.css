@@ -1,0 +1,80 @@
+body {
+  background-color: #fefae0;
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  padding: 0.5rem;
+  background-color: #023047;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  position: fixed;
+  width: 100%;
+}
+
+#header > span {
+  padding: 0.5rem;
+}
+
+#header > span:hover {
+  background-color: white;
+  color: #023047;
+  transform: scale(1.15);
+}
+
+#header > span:active {
+  background-color: #023047;
+  color: white;
+}
+
+#mainContent {
+  padding-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  min-width: 30rem;
+}
+
+#mainContent.one {
+  background-image: url("../images/restaurantPic1.webp");
+  background-size: cover;
+}
+
+#mainContent.two {
+  background-image: url("../images/restaurantPic3.webp");
+  background-size: cover;
+}
+
+#mainContent.three {
+  background-image: url("../images/restaurantPic2.webp");
+  background-size: cover;
+}
+
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1rem solid #a2d2ff;
+  border-radius: 5px;
+  background-color: #bde0fe;
+  width: 60%;
+  min-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box > h6 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.profile {
+  height: 3rem;
+  width: 3rem;
+}
